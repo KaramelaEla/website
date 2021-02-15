@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Contact</title>
+
+
+    </head>
+
+    <body>
+        <tbody>
+            <td><a href="index.html" > Home page</a></td>
+            <td><a href="Noutati.html" > Noutati</a></td>
+            <td><a href="Video.html" > Video</a></td>
+            <td><a href="Contact.html" > Contact</a></td>
+        </tbody>
+
+        <h1>
+            Contact
+        </h1>
+        
+            <form action = "contact.php" method = "POST">
+                <label for = "email"> Introduceti adresa de email:</label>
+                <input type="email" id="email" nume = "email" placeholder = "Introduceti email" required></input>
+                <br>
+                <label for = "nume"> Introduceti numele si prenumele:</label>
+                <input type="text" id="nume" nume = "nume" placeholder = "Nume & prenume"></input>
+                <br>
+                <label for = "telefon"> Introduceti nr telefon:</label>
+                <input type="int" id="telefon" nume = "telefon" placeholder = "Introduceti nr telefon" required></input>
+                <br>
+                <label for = "mesaj"> Introduceti mesajul dumneavoastra:</label> <br>
+                <textarea id="mesaj" maxlenght = "3" rows = "5" cols = "100" nume = "mesaj" placeholder = "Introduceti mesaj"></textarea>
+                <br>
+                <label for = "functie">Functie:</label>
+                <select id = "functie" name = "functie" placeholder = "Alegeti o varianta" >
+                    <option value = "Director"> Director</option>
+                    <option value = "Tehnician"> Tehnician</option>
+                    <option value = "Inginer"> Inginer</option>
+                    <option value = "Vanzator"> Vanzator</option>
+                </select>
+                <input type = "file" nume="file" id = "fisier" ></input>
+                <br>
+                <button type ="submit"> Inregistrare</button>
+                <button type = "reset" >Reset </button>
+            </form>
+            
+
+        
+
+    </body>
+</html>
